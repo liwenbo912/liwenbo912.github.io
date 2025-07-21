@@ -1,1 +1,9 @@
+main:
+
+  - title: Card game - Pyramid
+    authors: Sun Xueli, Li Wenbo, Tu Jingtian, Wang Zixuan, Zhen Qi
+    code: https://github.com/KellyYankei/1340-2113-gp16
+    Video: https://www.youtube.com/watch?v=tyjc-rJs1SA
+    image: ./assets/img/pyramid.png
+    notes: HKU ENGG1340(2023-2024 sem2)
 

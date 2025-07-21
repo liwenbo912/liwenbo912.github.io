@@ -12,7 +12,7 @@ I am a year 3 Computer Science student at The University of Hong Kong.
 
 ## News
 
-- **[Sep. 2004]** Super-hero landed
+- **[Sep. 2004]** Birth
 
 {% include_relative _includes/projects.md %}
 
