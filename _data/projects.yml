@@ -7,3 +7,11 @@ main:
     image: ./assets/img/pyramid.png
     notes: HKU ENGG1340(2023-2024 sem2)
 
+  - title: Card game - BigTwo
+    authors: Li Wenbo
+    code: https://github.com/liwenbo912/BigTwo
+
+    image: ./assets/img/pyramid.png
+    notes: HKU COMP2396(2024-2025 sem1)
+
+
