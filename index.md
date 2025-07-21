@@ -14,6 +14,6 @@ I am a year 3 Computer Science student at The University of Hong Kong.
 
 - **[Sep. 2004]** Super-hero landed
 
-{% include_relative _includes/publications.md %}
+{% include_relative _includes/projects.md %}
 
-{% include_relative _includes/services.md %}
+{% include_relative _includes/experience.md %}
