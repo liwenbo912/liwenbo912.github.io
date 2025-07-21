@@ -4,14 +4,13 @@ main:
     authors: Sun Xueli, Li Wenbo, Tu Jingtian, Wang Zixuan, Zhen Qi
     code: https://github.com/KellyYankei/1340-2113-gp16
     Video: https://www.youtube.com/watch?v=tyjc-rJs1SA
-    image: ./assets/img/lwb.png
+    image: ./assets/img/pyramid.png
     notes: HKU ENGG1340(2023-2024 sem2)
 
   - title: Card game - BigTwo
     authors: Li Wenbo
     code: https://github.com/liwenbo912/BigTwo
-
-    image: ./assets/img/lwb.png
+    image: ./assets/img/BigTwo.png
     notes: HKU COMP2396(2024-2025 sem1)
 
 
