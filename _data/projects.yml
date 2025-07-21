@@ -11,7 +11,7 @@ main:
     authors: Li Wenbo
     code: https://github.com/liwenbo912/BigTwo
 
-    image: ./assets/img/pyramid.png
+    image: ./assets/img/BigTwo.png
     notes: HKU COMP2396(2024-2025 sem1)
 
 
