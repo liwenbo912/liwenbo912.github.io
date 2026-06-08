@@ -1,14 +1,15 @@
 # Basic Information 
 title: Li Wenbo
-position: Undergraduate Student
+position: Undergraduate Student in Computer Science
 affiliation: The University of Hong Kong
+affiliation_link: https://www.hku.hk/
 email: lwb1422144636@gmail.com
 
 # Search Engine Optimization (SEO)
 # The following information is used to improve the website traffic from search engines, e.g., Google.
-keywords: minimal light
-description: The Minimal Light is a simple and elegant jekyll theme for academic personal homepage.
-canonical: https://minimal-light-theme.yliu.me/
+keywords: Li Wenbo, Wenbo Li, Benny Li, HKU, Computer Science, Embodied AI, Visual Language Navigation
+description: Li Wenbo is a Computer Science undergraduate at The University of Hong Kong interested in Embodied AI and Visual Language Navigation.
+canonical: https://liwenbo912.github.io/
 
 # Links 
 # If you don't need one of them, you may delete the corresponding line.
@@ -26,7 +27,7 @@ favicon_dark: ./assets/img/favicon-dark.png
 
 # Footnote
 # You may use the option to disable the footnote, "Powered by Jekyll and Minimal Light theme."
-enable_footnote: true
+enable_footnote: false
 
 # Auto Dark Mode
 # You may use the option to disable the automatic dark theme
@@ -34,11 +35,11 @@ auto_dark_mode: true
 
 # Font
 # You can use this option to choose between Serif or Sans Serif fonts.
-font: "Serif" # or "Sans Serif"
+font: "Sans Serif" # or "Serif"
 
 # Google Analytics ID
 # Please remove this if you don't use Google Analytics
-google_analytics: UA-111540567-4
+# google_analytics:
 
 # Use this project as a remote theme for GitHub Pages
 # See the guide here: https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/adding-a-theme-to-your-github-pages-site-using-jekyll

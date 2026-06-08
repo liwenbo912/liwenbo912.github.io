@@ -6,11 +6,15 @@ main:
     Video: https://www.youtube.com/watch?v=tyjc-rJs1SA
     image: ./assets/img/pyramid.png
     notes: HKU ENGG1340(2023-2024 sem2)
+    description: A command-line card game project developed as a team, focusing on game rules, turn logic, and collaborative software design.
+    tags: C++, Team Project, Game Logic
 
   - title: Card game - BigTwo
     authors: Li Wenbo
     code: https://github.com/liwenbo912/BigTwo
     image: ./assets/img/BigTwo.png
     notes: HKU COMP2396(2024-2025 sem1)
+    description: An object-oriented implementation of Big Two, emphasizing modular class design, rule validation, and interactive gameplay flow.
+    tags: Java, OOP, Card Game
 
 

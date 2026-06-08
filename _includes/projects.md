@@ -1,25 +1,29 @@
-<h2 id="projects" style="margin: 2px 0px -15px;">Projects</h2>
+<h2 id="projects">Projects</h2>
 
 <div class="publications">
 <ol class="bibliography">
 
 {% for link in site.data.projects.main %}
 
-<li>
+<li class="project-card">
 <div class="pub-row">
-  <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
+  <div class="col-sm-3 abbr">
     {% if link.image %} 
-    <img src="{{ link.image }}" class="teaser img-fluid z-depth-1" style="width=100;height=40%">
+    <img src="{{ link.image }}" class="teaser img-fluid z-depth-1" alt="{{ link.title }} teaser">
     {% if link.conference_short %} 
     <abbr class="badge">{{ link.conference_short }}</abbr>
     {% endif %}
     {% endif %}
   </div>
-  <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
-      <div class="title" style="color: #39c">{{ link.title }}</div>
+  <div class="col-sm-9 project-content">
+      <div class="title">{{ link.title }}</div>
       <div class="author">{{ link.authors }}</div>
-      <div class="periodical"><em>{{ link.conference }}</em>
-      </div>
+      {% if link.description %}
+      <p class="project-description">{{ link.description }}</p>
+      {% endif %}
+      {% if link.tags %}
+      <div class="project-tags">{{ link.tags }}</div>
+      {% endif %}
     <div class="links">
       {% if link.Video %} 
       <a href="{{ link.Video }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Video</a>
@@ -43,7 +47,6 @@
   </div>
 </div>
 </li>
-<br>
 
 {% endfor %}
 
