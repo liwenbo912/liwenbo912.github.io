@@ -6,7 +6,7 @@ layout: homepage
 
 ## About
 
-I am a BEng Computer Science undergraduate at [The University of Hong Kong](https://www.hku.hk/), with a CGPA of 3.75/4.30 and an expected First Class Honour. My current academic interests are in **Embodied AI**, especially visual-language navigation and multimodal understanding for intelligent agents.
+I am a BEng Computer Science undergraduate at [The University of Hong Kong](https://www.hku.hk/). My current academic interests are in **Embodied AI**, especially multimodal understanding for intelligent agents.
 
 I am currently a Research Assistant at HKU Infobodied AI Lab, exploring multimodal data such as gaze, EEG, and EMG for vision-language models. I have also worked on embodied AI and visual-language navigation as a Student Research Helper at HKU, and served as a Teaching Assistant for COMP2113: Programming Technologies.
 
@@ -20,12 +20,12 @@ I am currently a Research Assistant at HKU Infobodied AI Lab, exploring multimod
     <p>Agents that perceive, reason, and act in physical or simulated environments.</p>
   </div>
   <div class="interest-item">
-    <span>Visual-Language Navigation</span>
-    <p>Connecting natural-language instructions with visual perception and navigation policies.</p>
-  </div>
-  <div class="interest-item">
     <span>Multimodal Learning</span>
     <p>Exploring signals such as gaze, EEG, and EMG for vision-language model research.</p>
+  </div>  
+  <div class="interest-item">
+    <span>Visual-Language Navigation</span>
+    <p>Connecting natural-language instructions with visual perception and navigation policies.</p>
   </div>
 </div>
 
@@ -33,8 +33,8 @@ I am currently a Research Assistant at HKU Infobodied AI Lab, exploring multimod
 
 <div class="compact-list">
   <div>
-    <strong>Aug 2023 - Present</strong>
-    <p>BEng in Computer Science</p>
+    <strong>The University of Hong Kong</strong>
+    <p>BEng(CompSc); Aug 2023 - Present</p>
   </div>
 </div>
 
