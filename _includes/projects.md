@@ -7,14 +7,14 @@
 
 <li class="project-card">
 <div class="pub-row">
+  {% if link.image %}
   <div class="col-sm-3 abbr">
-    {% if link.image %} 
     <img src="{{ link.image }}" class="teaser img-fluid z-depth-1" alt="{{ link.title }} teaser">
     {% if link.conference_short %} 
     <abbr class="badge">{{ link.conference_short }}</abbr>
     {% endif %}
-    {% endif %}
   </div>
+  {% endif %}
   <div class="col-sm-9 project-content">
       <div class="title">{{ link.title }}</div>
       <div class="author">{{ link.authors }}</div>

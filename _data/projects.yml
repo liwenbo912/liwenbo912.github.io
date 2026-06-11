@@ -1,20 +1,26 @@
 main:
 
+  - title: Image Classification Challenge
+    authors: Li Wenbo
+    notes: HKU COMP3314
+    description: Achieved Second Runner-Up in an image classification challenge by using non-neural-network methods to reach 74% accuracy on CIFAR-10.
+    tags: CIFAR-10, SVM, DAISY, HOG, HSV
+
   - title: Card game - Pyramid
     authors: Sun Xueli, Li Wenbo, Tu Jingtian, Wang Zixuan, Zhen Qi
     code: https://github.com/KellyYankei/1340-2113-gp16
     Video: https://www.youtube.com/watch?v=tyjc-rJs1SA
     image: ./assets/img/pyramid.png
-    notes: HKU ENGG1340(2023-2024 sem2)
-    description: A command-line card game project developed as a team, focusing on game rules, turn logic, and collaborative software design.
-    tags: C++, Team Project, Game Logic
+    notes: HKU COMP2113
+    description: Built a console card game with random deck generation, save/load via file I/O, and a modular C++ codebase.
+    tags: C++, File I/O, Game Logic
 
   - title: Card game - BigTwo
     authors: Li Wenbo
     code: https://github.com/liwenbo912/BigTwo
     image: ./assets/img/BigTwo.png
-    notes: HKU COMP2396(2024-2025 sem1)
-    description: An object-oriented implementation of Big Two, emphasizing modular class design, rule validation, and interactive gameplay flow.
-    tags: Java, OOP, Card Game
+    notes: HKU COMP2396
+    description: Developed a complete 4-player online card game from core logic to GUI and network multiplayer, applying OOP, event-driven programming, and socket-based communication.
+    tags: Java, OOP, GUI, Socket Programming
 
 

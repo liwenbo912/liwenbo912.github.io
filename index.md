@@ -6,9 +6,9 @@ layout: homepage
 
 ## About
 
-I am a third-year Computer Science undergraduate at [The University of Hong Kong](https://www.hku.hk/). My current academic interests are in **Embodied AI**, especially visual-language navigation and the design of agents that can understand, plan, and act in interactive environments.
+I am a BEng Computer Science undergraduate at [The University of Hong Kong](https://www.hku.hk/), with a CGPA of 3.75/4.30 and an expected First Class Honour. My current academic interests are in **Embodied AI**, especially visual-language navigation and multimodal understanding for intelligent agents.
 
-I am currently a Student Research Assistant at [HKU CDS](https://www.cds.hku.hk/), where I work around embodied intelligence and visual-language navigation. I have also served as a Student Teaching Assistant for COMP2113: Programming Technologies.
+I am currently a Research Assistant at HKU Infobodied AI Lab, exploring multimodal data such as gaze, EEG, and EMG for vision-language models. I have also worked on embodied AI and visual-language navigation as a Student Research Helper at HKU, and served as a Teaching Assistant for COMP2113: Programming Technologies.
 
 </div>
 
@@ -24,15 +24,67 @@ I am currently a Student Research Assistant at [HKU CDS](https://www.cds.hku.hk/
     <p>Connecting natural-language instructions with visual perception and navigation policies.</p>
   </div>
   <div class="interest-item">
-    <span>Interactive Systems</span>
-    <p>Building practical software systems and game projects with clean user interaction.</p>
+    <span>Multimodal Learning</span>
+    <p>Exploring signals such as gaze, EEG, and EMG for vision-language model research.</p>
+  </div>
+</div>
+
+## Education
+
+<div class="compact-list">
+  <div>
+    <strong>The University of Hong Kong</strong>
+    <span>Aug 2023 - Present</span>
+    <p>BEng in Computer Science. CGPA: 3.75/4.30, top 10%, expected First Class Honour.</p>
+  </div>
+  <div>
+    <strong>Shenzhen Middle School</strong>
+    <span>Sep 2020 - Jun 2023</span>
+    <p>Senior High School Diploma. Chinese Gaokao: top 0.2% in Guangdong province.</p>
+  </div>
+</div>
+
+## Honors
+
+- Lee Shau Kee Scholarships for Student Enrichment, 2025-2026
+- Wong Shek-Yung Memorial Enrichment Award, 2023-2024
+- Dean's Honour List, 2023-2024
+- China Chemistry Olympiad, First Prize, 2021
+
+## Skills
+
+<div class="skill-tags">
+  <span>Python</span>
+  <span>C++</span>
+  <span>SQL</span>
+  <span>Git</span>
+  <span>Linux</span>
+  <span>Spreadsheets</span>
+  <span>R</span>
+  <span>Tableau</span>
+  <span>NumPy</span>
+</div>
+
+## Certificates
+
+<div class="compact-list">
+  <div>
+    <strong>Google Data Analytics</strong>
+    <span>Google</span>
+    <p>Covered spreadsheets, SQL, R, and Tableau.</p>
+  </div>
+  <div>
+    <strong>Supervised Machine Learning</strong>
+    <span>DeepLearning.AI</span>
+    <p>Covered machine learning fundamentals and NumPy-based workflows.</p>
   </div>
 </div>
 
 ## News
 
-- **[May 2025]** Started as a Student Research Assistant at HKU CDS.
-- **[Jan 2025]** Served as a Student Teaching Assistant for COMP2113: Programming Technologies.
+- **[Jun 2025]** Started as a Research Assistant at HKU Infobodied AI Lab.
+- **[May 2025]** Started as a Student Research Helper on Embodied AI and Visual-Language Navigation at HKU.
+- **[Feb 2025]** Started serving as a Teaching Assistant for COMP2113: Programming Technologies.
 
 {% include_relative _includes/projects.md %}
 
