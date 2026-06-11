@@ -33,14 +33,8 @@ I am currently a Research Assistant at HKU Infobodied AI Lab, exploring multimod
 
 <div class="compact-list">
   <div>
-    <strong>The University of Hong Kong</strong>
-    <span>Aug 2023 - Present</span>
-    <p>BEng in Computer Science. CGPA: 3.75/4.30, top 10%, expected First Class Honour.</p>
-  </div>
-  <div>
-    <strong>Shenzhen Middle School</strong>
-    <span>Sep 2020 - Jun 2023</span>
-    <p>Senior High School Diploma. Chinese Gaokao: top 0.2% in Guangdong province.</p>
+    <strong>Aug 2023 - Present</strong>
+    <p>BEng in Computer Science</p>
   </div>
 </div>
 
@@ -49,7 +43,6 @@ I am currently a Research Assistant at HKU Infobodied AI Lab, exploring multimod
 - Lee Shau Kee Scholarships for Student Enrichment, 2025-2026
 - Wong Shek-Yung Memorial Enrichment Award, 2023-2024
 - Dean's Honour List, 2023-2024
-- China Chemistry Olympiad, First Prize, 2021
 
 ## Skills
 
@@ -59,25 +52,6 @@ I am currently a Research Assistant at HKU Infobodied AI Lab, exploring multimod
   <span>SQL</span>
   <span>Git</span>
   <span>Linux</span>
-  <span>Spreadsheets</span>
-  <span>R</span>
-  <span>Tableau</span>
-  <span>NumPy</span>
-</div>
-
-## Certificates
-
-<div class="compact-list">
-  <div>
-    <strong>Google Data Analytics</strong>
-    <span>Google</span>
-    <p>Covered spreadsheets, SQL, R, and Tableau.</p>
-  </div>
-  <div>
-    <strong>Supervised Machine Learning</strong>
-    <span>DeepLearning.AI</span>
-    <p>Covered machine learning fundamentals and NumPy-based workflows.</p>
-  </div>
 </div>
 
 ## News
