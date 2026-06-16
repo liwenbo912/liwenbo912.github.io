@@ -1007,3 +1007,197 @@ email {
     gap: 5px;
   }
 }
+
+/* Final layout pass: replaces the legacy fixed/floated template layout with
+   a responsive grid that behaves better across desktop, tablet, and phones. */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0 22px;
+  overflow-x: hidden;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: 270px minmax(0, 700px);
+  gap: clamp(36px, 6vw, 70px);
+  width: min(1040px, 100%);
+  margin: 0 auto;
+  align-items: start;
+}
+
+header {
+  float: none;
+  position: sticky;
+  top: 0;
+  width: 270px;
+}
+
+section {
+  float: none;
+  width: min(700px, 100%);
+  min-width: 0;
+}
+
+.interest-grid {
+  grid-template-columns: repeat(auto-fit, minmax(185px, 1fr));
+}
+
+.timeline {
+  gap: 0;
+  margin-bottom: 24px;
+}
+
+.timeline-item {
+  grid-template-columns: minmax(128px, 155px) minmax(0, 1fr);
+}
+
+.timeline-body {
+  min-width: 0;
+}
+
+.publications ol.bibliography li .abbr {
+  max-width: 190px;
+}
+
+@media print, screen and (max-width: 1120px) {
+  body {
+    background: var(--page-bg);
+  }
+
+  .wrapper {
+    grid-template-columns: minmax(220px, 260px) minmax(0, 1fr);
+    gap: 32px;
+  }
+
+  header,
+  section {
+    width: 100%;
+  }
+
+  .publications ol.bibliography li .abbr {
+    flex-basis: 170px;
+    max-width: 170px;
+  }
+
+  .publications ol.bibliography li .teaser {
+    width: 170px;
+    height: 108px;
+  }
+}
+
+@media print, screen and (max-width: 960px) {
+  body {
+    padding: 0 18px;
+  }
+
+  .wrapper {
+    display: block;
+    width: min(760px, 100%);
+  }
+
+  header,
+  section,
+  footer {
+    float: none;
+    position: static;
+    width: 100%;
+  }
+
+  header,
+  section {
+    padding-top: 1.5em;
+  }
+
+  section {
+    border-width: 0;
+    margin-top: 18px;
+    padding-bottom: 42px;
+  }
+
+  .site-nav {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    max-width: 560px;
+  }
+}
+
+@media print, screen and (max-width: 640px) {
+  body {
+    padding: 0 14px;
+    font-size: 15px;
+  }
+
+  h1 {
+    font-size: 28px;
+  }
+
+  h2 {
+    margin-top: 28px;
+    font-size: 22px;
+  }
+
+  .image.avatar img {
+    width: 118px;
+  }
+
+  .site-nav {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    max-width: 360px;
+  }
+
+  .intro {
+    padding: 18px 16px 2px;
+  }
+
+  .interest-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .pub-row {
+    display: block;
+  }
+
+  .publications ol.bibliography li .abbr {
+    max-width: none;
+    margin-bottom: 12px;
+  }
+
+  .publications ol.bibliography li .teaser {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 16 / 9;
+  }
+
+  .timeline-item {
+    grid-template-columns: 1fr;
+    gap: 5px;
+    padding: 13px 0;
+  }
+
+  .timeline-date {
+    font-size: 13px;
+  }
+}
+
+@media print, screen and (max-width: 420px) {
+  body {
+    padding: 0 12px;
+  }
+
+  .social-icons a {
+    margin-right: 0.35rem;
+  }
+
+  .publications ol.bibliography li.project-card {
+    padding: 14px;
+  }
+
+  .publications ol.bibliography li .links a.btn {
+    margin-bottom: 6px;
+  }
+}

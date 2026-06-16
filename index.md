@@ -31,18 +31,40 @@ I am currently a Research Assistant at HKU Infobodied AI Lab, exploring multimod
 
 ## Education
 
-<div class="compact-list">
-  <div>
-    <strong>The University of Hong Kong</strong>
-    <p>BEng(CompSc); Aug 2023 - Present</p>
+<div class="timeline">
+  <div class="timeline-item">
+    <div class="timeline-date">Aug 2023 - Present</div>
+    <div class="timeline-body">
+      <strong>The University of Hong Kong</strong>
+      <p>BEng(CompSc)</p>
+    </div>
   </div>
 </div>
 
 ## Honors
 
-- Lee Shau Kee Scholarships for Student Enrichment, 2025-2026
-- Wong Shek-Yung Memorial Enrichment Award, 2023-2024
-- Dean's Honour List, 2023-2024
+<div class="timeline">
+  <div class="timeline-item">
+    <div class="timeline-date">2025 - 2026</div>
+    <div class="timeline-body">
+      <strong>Lee Shau Kee Scholarships for Student Enrichment</strong>
+    </div>
+  </div>
+
+  <div class="timeline-item">
+    <div class="timeline-date">2023 - 2024</div>
+    <div class="timeline-body">
+      <strong>Wong Shek-Yung Memorial Enrichment Award</strong>
+    </div>
+  </div>
+
+  <div class="timeline-item">
+    <div class="timeline-date">2023 - 2024</div>
+    <div class="timeline-body">
+      <strong>Dean's Honour List</strong>
+    </div>
+  </div>
+</div>
 
 ## Skills
 
